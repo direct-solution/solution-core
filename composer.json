@@ -1,0 +1,19 @@
+{
+    "name": "direct-solution/solution-core",
+    "description": "Solution-core, a collection of important core file for solution-mvc.",
+    "authors": [
+        {
+            "name": "Doug Hayward"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SolutionCore\\": "",
+            "SolutionCore\\Controllers\\": "src/Controllers/",
+            "SolutionCore\\Models\\": "src/Models/",
+            "SolutionCore\\Controllers\\Cache\\": "src/Controllers/Cache/",
+            "SolutionCore\\Interfaces\\": "src/Interfaces/"
+        }
+
+    }
+}
