@@ -1,5 +1,5 @@
 <?php
-SolutionCore\Controllers;
+namespace SolutionCore\Controllers;
 /**
  * Class Error
  *

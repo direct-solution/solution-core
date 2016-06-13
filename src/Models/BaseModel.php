@@ -1,6 +1,6 @@
 <?php
 
-namespace SolutionMvc\Model;
+namespace SolutionCore\Model;
 
 use PDO,
     Symfony\Component\Yaml\Parser;
