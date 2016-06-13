@@ -70,7 +70,7 @@ class Application {
             //require APP . 'controller/home.php';
             $page = new \SolutionMvc\Controller\HomeController();
             $page->indexAction();
-        } elseif (file_exists(APP . $this->project . 'Controller/' . $this->controller . 'Controller.php')) {
+        } elseif (file_exists(APP . $this->project . '/Controller/' . $this->controller . 'Controller.php')) {
             // here we did check for controller: does such a controller exist ?
             // if so, then load this file and create this controller
             // example: if controller would be "car", then this line would translate into: $this->car = new car();
