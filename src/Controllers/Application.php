@@ -5,6 +5,7 @@ namespace SolutionMvc\Core;
 use SolutionMvc\Controller\ErrorController;
 
 class Application {
+    
 
     /** @var null The controller */
     private $url_controller = null;
